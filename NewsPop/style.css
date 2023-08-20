@@ -1,0 +1,126 @@
+body {
+    background-color: #0033ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    border: none;
+    padding: 20px;
+    background-color: white;
+    border-left: 10px solid #0033ff;
+    border-right: 10px solid #0033ff;
+    border-image: linear-gradient(#0033ff, white) 1;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.error {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: large;
+}
+
+h3 {
+    font-size: large;
+}
+
+h3.following {
+    color: #228B22;
+    font-size: 1.5em;
+  }
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    border: 2px solid #d90000;
+    border-radius: 3px;
+}
+
+.log-button {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d90000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0033ff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    border: 1px solid #d90000;
+    padding: 10px;
+    width: 100%;
+    height: auto; 
+    position: relative;
+    overflow: hidden;
+  }
+
+.grid-item a.title {
+    color: black;
+}
+
+
+.grid-item img {
+    max-width: 100%; 
+    max-height: 100%; 
+    width: auto; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.detail-image {
+    width: 100%;
+    max-width: 500px;
+}
